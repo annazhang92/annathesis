@@ -1,0 +1,56 @@
+  #gallery { float: left; width: 100%; min-height: 12em; }
+  .gallery.custom-state-active { background: #eee; }
+  .gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery li a { float: right; }
+  .gallery li a.ui-icon-zoomin { float: left; }
+  .gallery li img { width: 100%; cursor: move; }
+ 
+  #trash { float: left; width: 100%; min-height: 10em; padding: 1%; }
+  #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash h4 .ui-icon { float: left; }
+  #trash .gallery h5 { display: none; }
+
+
+
+
+  #gallery2 { float: left; width: 100%; min-height: 12em; }
+  .gallery2.custom-state-active { background: #eee; }
+  .gallery2 li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery2 li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery2 li a { float: right; }
+  .gallery2 li a.ui-icon-zoomin { float: left; }
+  .gallery2 li img { width: 100%; cursor: move; }
+ 
+  #trash2 { float: left; width: 100%; min-height: 10em; padding: 1%; }
+  #trash2 h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash2 h4 .ui-icon { float: left; }
+  #trash2 .gallery2 h5 { display: none; }
+
+
+  #gallery3 { float: left; width: 100%; min-height: 12em; }
+  .gallery3.custom-state-active { background: #eee; }
+  .gallery3 li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery3 li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery3 li a { float: right; }
+  .gallery3 li a.ui-icon-zoomin { float: left; }
+  .gallery3 li img { width: 100%; cursor: move; }
+ 
+  #trash3 { float: left; width: 100%; min-height: 10em; padding: 1%; }
+  #trash3 h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash3 h4 .ui-icon { float: left; }
+  #trash3 .gallery3 h5 { display: none; }
+
+
+  #gallery4 { float: left; width: 100%; min-height: 12em; }
+  .gallery4.custom-state-active { background: #eee; }
+  .gallery4 li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery4 li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery4 li a { float: right; }
+  .gallery4 li a.ui-icon-zoomin { float: left; }
+  .gallery4 li img { width: 100%; cursor: move; }
+ 
+  #trash4 { float: left; width: 100%; min-height: 10em; padding: 1%; }
+  #trash4 h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash4 h4 .ui-icon { float: left; }
+  #trash4 .gallery4 h5 { display: none; }
