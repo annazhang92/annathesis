@@ -536,3 +536,12 @@ label {
 
 }
 
+.container-mid {
+    margin: auto;
+    width: 100%;
+
+}
+
+.p-left {
+  text-align: left;
+}
