@@ -43,12 +43,12 @@ $( function() {
           $( "ul", $trash ) :
           $( "<ul class='gallery ui-helper-reset'/>" ).appendTo( $trash );
  
-        $item.find( "a.ui-icon-trash" ).remove();
-        $item.append( recycle_icon ).appendTo( $list ).fadeIn(function() {
+
+        $item.appendTo( $list ).fadeIn(function() {
           $item
-            .animate({ width: "48px" })
+            .animate({ width: "96px" })
             .find( "img" )
-              .animate({ height: "36px" });
+              .animate({ height: "72px" });
         });
       });
     }
@@ -62,7 +62,6 @@ $( function() {
             .remove()
           .end()
           .css( "width", "96px")
-          .append( trash_icon )
           .find( "img" )
             .css( "height", "72px" )
           .end()
@@ -71,26 +70,8 @@ $( function() {
       });
     }
  
-    // Image preview function, demonstrating the ui.dialog used as a modal window
-    function viewLargerImage( $link ) {
-      var src = $link.attr( "href" ),
-        title = $link.siblings( "img" ).attr( "alt" ),
-        $modal = $( "img[src$='" + src + "']" );
- 
-      if ( $modal.length ) {
-        $modal.dialog( "open" );
-      } else {
-        var img = $( "<img alt='" + title + "' width='384' height='288' style='display: none; padding: 8px;' />" )
-          .attr( "src", src ).appendTo( "body" );
-        setTimeout(function() {
-          img.dialog({
-            title: title,
-            width: 400,
-            modal: true
-          });
-        }, 1 );
-      }
-    }
+
+
  
     // Resolve the icons behavior with event delegation
     $( "ul.gallery > li" ).on( "click", function( event ) {
@@ -156,13 +137,12 @@ $( function() {
         var $list = $( "ul", $trash2 ).length ?
           $( "ul", $trash2 ) :
           $( "<ul class='gallery2 ui-helper-reset'/>" ).appendTo( $trash2 );
- 
-        $item.find( "a.ui-icon-trash" ).remove();
-        $item.append( recycle_icon ).appendTo( $list ).fadeIn(function() {
+
+        $item.appendTo( $list ).fadeIn(function() {
           $item
-            .animate({ width: "48px" })
+            .animate({ width: "96px" })
             .find( "img" )
-              .animate({ height: "36px" });
+              .animate({ height: "72px" });
         });
       });
     }
@@ -176,7 +156,6 @@ $( function() {
             .remove()
           .end()
           .css( "width", "96px")
-          .append( trash_icon )
           .find( "img" )
             .css( "height", "72px" )
           .end()
@@ -185,26 +164,7 @@ $( function() {
       });
     }
  
-    // Image preview function, demonstrating the ui.dialog used as a modal window
-    function viewLargerImage( $link ) {
-      var src = $link.attr( "href" ),
-        title = $link.siblings( "img" ).attr( "alt" ),
-        $modal = $( "img[src$='" + src + "']" );
- 
-      if ( $modal.length ) {
-        $modal.dialog( "open" );
-      } else {
-        var img = $( "<img alt='" + title + "' width='384' height='288' style='display: none; padding: 8px;' />" )
-          .attr( "src", src ).appendTo( "body" );
-        setTimeout(function() {
-          img.dialog({
-            title: title,
-            width: 400,
-            modal: true
-          });
-        }, 1 );
-      }
-    }
+
  
     // Resolve the icons behavior with event delegation
     $( "ul.gallery2 > li" ).on( "click", function( event ) {
@@ -272,12 +232,11 @@ $( function() {
           $( "ul", $trash3 ) :
           $( "<ul class='gallery3 ui-helper-reset'/>" ).appendTo( $trash3 );
  
-        $item.find( "a.ui-icon-trash" ).remove();
-        $item.append( recycle_icon ).appendTo( $list ).fadeIn(function() {
+        $item.appendTo( $list ).fadeIn(function() {
           $item
-            .animate({ width: "48px" })
+            .animate({ width: "96px" })
             .find( "img" )
-              .animate({ height: "36px" });
+              .animate({ height: "72px" });
         });
       });
     }
@@ -291,7 +250,6 @@ $( function() {
             .remove()
           .end()
           .css( "width", "96px")
-          .append( trash_icon )
           .find( "img" )
             .css( "height", "72px" )
           .end()
@@ -300,26 +258,7 @@ $( function() {
       });
     }
  
-    // Image preview function, demonstrating the ui.dialog used as a modal window
-    function viewLargerImage( $link ) {
-      var src = $link.attr( "href" ),
-        title = $link.siblings( "img" ).attr( "alt" ),
-        $modal = $( "img[src$='" + src + "']" );
- 
-      if ( $modal.length ) {
-        $modal.dialog( "open" );
-      } else {
-        var img = $( "<img alt='" + title + "' width='384' height='288' style='display: none; padding: 8px;' />" )
-          .attr( "src", src ).appendTo( "body" );
-        setTimeout(function() {
-          img.dialog({
-            title: title,
-            width: 400,
-            modal: true
-          });
-        }, 1 );
-      }
-    }
+
  
     // Resolve the icons behavior with event delegation
     $( "ul.gallery3 > li" ).on( "click", function( event ) {
@@ -387,12 +326,11 @@ $( function() {
           $( "ul", $trash4 ) :
           $( "<ul class='gallery4 ui-helper-reset'/>" ).appendTo( $trash4 );
  
-        $item.find( "a.ui-icon-trash" ).remove();
-        $item.append( recycle_icon ).appendTo( $list ).fadeIn(function() {
+        $item.appendTo( $list ).fadeIn(function() {
           $item
-            .animate({ width: "48px" })
+            .animate({ width: "96px" })
             .find( "img" )
-              .animate({ height: "36px" });
+              .animate({ height: "72px" });
         });
       });
     }
@@ -406,7 +344,6 @@ $( function() {
             .remove()
           .end()
           .css( "width", "96px")
-          .append( trash_icon )
           .find( "img" )
             .css( "height", "72px" )
           .end()
@@ -414,27 +351,7 @@ $( function() {
           .fadeIn();
       });
     }
- 
-    // Image preview function, demonstrating the ui.dialog used as a modal window
-    function viewLargerImage( $link ) {
-      var src = $link.attr( "href" ),
-        title = $link.siblings( "img" ).attr( "alt" ),
-        $modal = $( "img[src$='" + src + "']" );
- 
-      if ( $modal.length ) {
-        $modal.dialog( "open" );
-      } else {
-        var img = $( "<img alt='" + title + "' width='384' height='288' style='display: none; padding: 8px;' />" )
-          .attr( "src", src ).appendTo( "body" );
-        setTimeout(function() {
-          img.dialog({
-            title: title,
-            width: 400,
-            modal: true
-          });
-        }, 1 );
-      }
-    }
+
  
     // Resolve the icons behavior with event delegation
     $( "ul.gallery4 > li" ).on( "click", function( event ) {
